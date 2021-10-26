@@ -9,4 +9,4 @@ add_executable(SENG1120_A3
         makefile
         MechPart.cpp
         MechPart.h
-        TreeHashTableDemo.cpp)
+        TreeHashTableDemo.cpp HTable.cpp HTable.h BSTree.cpp BSTree.h)
