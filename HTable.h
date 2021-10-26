@@ -5,7 +5,7 @@
 #ifndef SENG1120_A3_HTABLE_H
 #define SENG1120_A3_HTABLE_H
 
-
+template <typename Type>
 class HTable {
 
 };
