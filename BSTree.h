@@ -19,7 +19,7 @@ public:
     };
 
     ~BSTree(){
-
+        //TODO: add destructor here
     };
 
     void add(Type part){
@@ -27,11 +27,16 @@ public:
         if(root==NULL){
             root = part;
         }
-        else if(part > root.getItem()){
-            BTNode<Type>* newNode = new BTNode<Type>;
+        else{
+            place(root, part);
         }
 
     };
+
+    void place(BTNode<Type> a, Type part){
+
+    };
+
 
     void remove(Type part){};
 
@@ -43,7 +48,7 @@ public:
 
 private:
 
-    BTNode* root;
+    BTNode<Type>* root;
 
 };
 
