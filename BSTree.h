@@ -5,14 +5,33 @@
 #ifndef SENG1120_A3_BSTREE_H
 #define SENG1120_A3_BSTREE_H
 
+
 #include "string"
 #include "BTNode.h"
-
+#include "MechPart.h"
 template <typename Type>
 class BSTree {
+
 public:
 
-    void add(Type part){};
+    BSTree(){
+        root = NULL;
+    };
+
+    ~BSTree(){
+
+    };
+
+    void add(Type part){
+
+        if(root==NULL){
+            root = part;
+        }
+        else if(part > root.getItem()){
+            BTNode<Type>* newNode = new BTNode<Type>;
+        }
+
+    };
 
     void remove(Type part){};
 
@@ -24,6 +43,7 @@ public:
 
 private:
 
+    BTNode* root;
 
 };
 
