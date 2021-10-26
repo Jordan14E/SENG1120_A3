@@ -88,6 +88,12 @@
 		<Unit filename="/cygdrive/c/GitHub/SENG1120_A3/BSTree.h">
 			<Option target="SENG1120_A3"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/GitHub/SENG1120_A3/BTNode.cpp">
+			<Option target="SENG1120_A3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/GitHub/SENG1120_A3/BTNode.h">
+			<Option target="SENG1120_A3"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/GitHub/SENG1120_A3/HTable.cpp">
 			<Option target="SENG1120_A3"/>
 		</Unit>

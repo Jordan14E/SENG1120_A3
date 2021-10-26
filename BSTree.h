@@ -6,20 +6,21 @@
 #define SENG1120_A3_BSTREE_H
 
 #include "string"
+#include "BTNode.h"
 
 template <typename Type>
 class BSTree {
 public:
 
-    void add(){};
+    void add(Type part){};
 
-    void remove(){};
+    void remove(Type part){};
 
     int calculateParts(){};
 
     int calculateInventory(){};
 
-    int calculateLessThan(){};
+    int calculateLessThan(int less){};
 
 private:
 

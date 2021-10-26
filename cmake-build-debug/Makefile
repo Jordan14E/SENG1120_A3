@@ -153,6 +153,30 @@ BSTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BSTree.cpp.s
 .PHONY : BSTree.cpp.s
 
+BTNode.o: BTNode.cpp.o
+.PHONY : BTNode.o
+
+# target to build an object file
+BTNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o
+.PHONY : BTNode.cpp.o
+
+BTNode.i: BTNode.cpp.i
+.PHONY : BTNode.i
+
+# target to preprocess a source file
+BTNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.i
+.PHONY : BTNode.cpp.i
+
+BTNode.s: BTNode.cpp.s
+.PHONY : BTNode.s
+
+# target to generate assembly for a file
+BTNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.s
+.PHONY : BTNode.cpp.s
+
 HTable.o: HTable.cpp.o
 .PHONY : HTable.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... BSTree.o"
 	@echo "... BSTree.i"
 	@echo "... BSTree.s"
+	@echo "... BTNode.o"
+	@echo "... BTNode.i"
+	@echo "... BTNode.s"
 	@echo "... HTable.o"
 	@echo "... HTable.i"
 	@echo "... HTable.s"
