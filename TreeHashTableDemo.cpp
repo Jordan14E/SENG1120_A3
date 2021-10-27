@@ -12,6 +12,7 @@
 #include "BSTree.h"
 #include "HTable.h"
 #include "MechPart.h"
+
 using namespace std;
 
 int main()
@@ -20,7 +21,7 @@ int main()
 
 	// if you are using class templates
 	BSTree<MechPart> treeValues;
-	HTable<MechPart> tableValues;
+	//HTable<MechPart> tableValues;
     MechPart part;
 
 	// Reads data from input file and populates tree
@@ -41,7 +42,7 @@ int main()
 			tempSS2 >> tempInt;
 			part.set_quantity(tempInt);
 			treeValues.add(part); // adds element to the tree
-			tableValues.add(part); // adds element to the table
+			//tableValues.add(part); // adds element to the table
 		}
 	}
 
@@ -74,7 +75,7 @@ int main()
 	cout << "There are " << treeValues.calculateParts() << " types of parts and " << treeValues.calculateInventory() << " parts in total." << endl;
 	cout << "There are " << treeValues.calculateLessThan(10) << " types of parts with less than 10 in inventory." << endl << endl;
 
-	cout << "==================" << endl << "HASH TABLE" << endl << "==================" << endl << endl;
+	/*cout << "==================" << endl << "HASH TABLE" << endl << "==================" << endl << endl;
 	t = clock(); // gets current time
     cout << "Initial hash table: " << tableValues << endl; // prints the contents of the hash table.
 
@@ -85,13 +86,13 @@ int main()
 		for (int i=0; i<11; i++)
 		{ // removes the 11 elements in the list. The first one is not present.
 			part.set_code(vectorCodes[i]); part.set_quantity(vectorQuantities[i]);
-			tableValues.remove(part);
+		//	tableValues.remove(part);
 		}
 
 		for (int i=1; i<11; i++)
 		{ // adds all elements removed back into the data structure.
 			part.set_code(vectorCodes[i]); part.set_quantity(vectorQuantities[i]);
-			tableValues.add(part);
+		//	tableValues.add(part);
 		}
 	}
 	cout << endl << endl;
@@ -100,6 +101,7 @@ int main()
 	cout << "Time per ins/del operation: " << 1000.0*(double)(clock() - t)/(double)(100000*21) << " milliseconds." << endl << endl;
 	cout << "There are " << tableValues.calculateParts() << " types of parts and " << tableValues.calculateInventory() << " parts in total." << endl;
 	cout << "There are " << tableValues.calculateLessThan(10) << " types of parts with less than 10 in inventory." << endl << endl;
+	*/
 	cout << "The program has finished." << endl;
 	return 0;
 }

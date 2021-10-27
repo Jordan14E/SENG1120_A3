@@ -90,8 +90,34 @@ public:
      * @param part
      */
     void remove(Type part){
-            
+            deleteNode(root, part);
     };
+
+    /***
+     * 
+     * @param a
+     * @param part
+     */
+    void deleteNode(BTnode* a, MechPart part){
+        /*Cases:
+            - Node matches, no left or right
+                + delete node
+            - Node doesn't match, part < node
+                + move to left child of node
+            - Node doesn't match, part > node
+                + move to right child of node
+            -Node matches, has left child, no right
+                + delete node, replace with left child
+            -Node matches, has right child. smallest right child has no children
+                + delete node, replace with smallest node on right side
+            - Node matches, has right child, smallest right child has child
+                + delete node, replace with smallest node on right side. replace that node with its right child
+        */
+
+
+
+
+    }
 
     int calculateParts(){};
 
