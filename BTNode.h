@@ -46,6 +46,17 @@ public:
         return rChild;
     };
 
+    void setRChild(BTNode* r){
+        this->rChild=r;
+    };
+
+    void setLChild(BTNode* l){
+        this->lChild=l;
+    };
+
+    void setParent(BTNode* p){
+        this->parent=p;
+    };
 
 private:
     BTNode* parent;

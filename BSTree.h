@@ -34,6 +34,15 @@ public:
     };
 
     void place(BTNode<Type> a, Type part){
+        
+        if(part == a){
+            return;
+        }
+
+        else if(part>a){
+            BTNode<Type>* newNode = new BTNode;
+            a.
+        }
 
     };
 
