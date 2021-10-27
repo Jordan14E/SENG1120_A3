@@ -16,7 +16,7 @@ public:
         parent = NULL;
         lChild = NULL;
         rChild = NULL;
-        item = NULL;
+        item = Type();
     };
 
     BTNode(BTNode* Parent, BTNode Item){
@@ -56,6 +56,10 @@ public:
 
     void setParent(BTNode* p){
         this->parent=p;
+    };
+
+    void setItem(Type I){
+        this->item=I;
     };
 
 private:

@@ -129,78 +129,6 @@ SENG1120_A3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/build
 .PHONY : SENG1120_A3/fast
 
-BSTree.o: BSTree.cpp.o
-.PHONY : BSTree.o
-
-# target to build an object file
-BSTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o
-.PHONY : BSTree.cpp.o
-
-BSTree.i: BSTree.cpp.i
-.PHONY : BSTree.i
-
-# target to preprocess a source file
-BSTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BSTree.cpp.i
-.PHONY : BSTree.cpp.i
-
-BSTree.s: BSTree.cpp.s
-.PHONY : BSTree.s
-
-# target to generate assembly for a file
-BSTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BSTree.cpp.s
-.PHONY : BSTree.cpp.s
-
-BTNode.o: BTNode.cpp.o
-.PHONY : BTNode.o
-
-# target to build an object file
-BTNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o
-.PHONY : BTNode.cpp.o
-
-BTNode.i: BTNode.cpp.i
-.PHONY : BTNode.i
-
-# target to preprocess a source file
-BTNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.i
-.PHONY : BTNode.cpp.i
-
-BTNode.s: BTNode.cpp.s
-.PHONY : BTNode.s
-
-# target to generate assembly for a file
-BTNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/BTNode.cpp.s
-.PHONY : BTNode.cpp.s
-
-HTable.o: HTable.cpp.o
-.PHONY : HTable.o
-
-# target to build an object file
-HTable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/HTable.cpp.o
-.PHONY : HTable.cpp.o
-
-HTable.i: HTable.cpp.i
-.PHONY : HTable.i
-
-# target to preprocess a source file
-HTable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/HTable.cpp.i
-.PHONY : HTable.cpp.i
-
-HTable.s: HTable.cpp.s
-.PHONY : HTable.s
-
-# target to generate assembly for a file
-HTable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENG1120_A3.dir/build.make CMakeFiles/SENG1120_A3.dir/HTable.cpp.s
-.PHONY : HTable.cpp.s
-
 MechPart.o: MechPart.cpp.o
 .PHONY : MechPart.o
 
@@ -258,15 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SENG1120_A3"
-	@echo "... BSTree.o"
-	@echo "... BSTree.i"
-	@echo "... BSTree.s"
-	@echo "... BTNode.o"
-	@echo "... BTNode.i"
-	@echo "... BTNode.s"
-	@echo "... HTable.o"
-	@echo "... HTable.i"
-	@echo "... HTable.s"
 	@echo "... MechPart.o"
 	@echo "... MechPart.i"
 	@echo "... MechPart.s"

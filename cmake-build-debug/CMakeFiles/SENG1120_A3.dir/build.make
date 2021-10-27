@@ -92,64 +92,19 @@ CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/GitHub/SENG1120_A3/TreeHashTableDemo.cpp -o CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.s
 
-CMakeFiles/SENG1120_A3.dir/HTable.cpp.o: CMakeFiles/SENG1120_A3.dir/flags.make
-CMakeFiles/SENG1120_A3.dir/HTable.cpp.o: ../HTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/GitHub/SENG1120_A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SENG1120_A3.dir/HTable.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SENG1120_A3.dir/HTable.cpp.o -c /cygdrive/c/GitHub/SENG1120_A3/HTable.cpp
-
-CMakeFiles/SENG1120_A3.dir/HTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SENG1120_A3.dir/HTable.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/GitHub/SENG1120_A3/HTable.cpp > CMakeFiles/SENG1120_A3.dir/HTable.cpp.i
-
-CMakeFiles/SENG1120_A3.dir/HTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SENG1120_A3.dir/HTable.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/GitHub/SENG1120_A3/HTable.cpp -o CMakeFiles/SENG1120_A3.dir/HTable.cpp.s
-
-CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o: CMakeFiles/SENG1120_A3.dir/flags.make
-CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o: ../BSTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/GitHub/SENG1120_A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o -c /cygdrive/c/GitHub/SENG1120_A3/BSTree.cpp
-
-CMakeFiles/SENG1120_A3.dir/BSTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SENG1120_A3.dir/BSTree.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/GitHub/SENG1120_A3/BSTree.cpp > CMakeFiles/SENG1120_A3.dir/BSTree.cpp.i
-
-CMakeFiles/SENG1120_A3.dir/BSTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SENG1120_A3.dir/BSTree.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/GitHub/SENG1120_A3/BSTree.cpp -o CMakeFiles/SENG1120_A3.dir/BSTree.cpp.s
-
-CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o: CMakeFiles/SENG1120_A3.dir/flags.make
-CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o: ../BTNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/GitHub/SENG1120_A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o -c /cygdrive/c/GitHub/SENG1120_A3/BTNode.cpp
-
-CMakeFiles/SENG1120_A3.dir/BTNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SENG1120_A3.dir/BTNode.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/GitHub/SENG1120_A3/BTNode.cpp > CMakeFiles/SENG1120_A3.dir/BTNode.cpp.i
-
-CMakeFiles/SENG1120_A3.dir/BTNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SENG1120_A3.dir/BTNode.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/GitHub/SENG1120_A3/BTNode.cpp -o CMakeFiles/SENG1120_A3.dir/BTNode.cpp.s
-
 # Object files for target SENG1120_A3
 SENG1120_A3_OBJECTS = \
 "CMakeFiles/SENG1120_A3.dir/MechPart.cpp.o" \
-"CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.o" \
-"CMakeFiles/SENG1120_A3.dir/HTable.cpp.o" \
-"CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o" \
-"CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o"
+"CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.o"
 
 # External object files for target SENG1120_A3
 SENG1120_A3_EXTERNAL_OBJECTS =
 
 SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/MechPart.cpp.o
 SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/TreeHashTableDemo.cpp.o
-SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/HTable.cpp.o
-SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/BSTree.cpp.o
-SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/BTNode.cpp.o
 SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/build.make
 SENG1120_A3.exe: CMakeFiles/SENG1120_A3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/GitHub/SENG1120_A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SENG1120_A3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/GitHub/SENG1120_A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SENG1120_A3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SENG1120_A3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

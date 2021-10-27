@@ -8,7 +8,7 @@
 
 #include "string"
 #include "BTNode.h"
-#include "MechPart.h"
+
 template <typename Type>
 class BSTree {
 
@@ -31,7 +31,7 @@ public:
 
         //if the root node is empty add as the root node
         if(root==NULL){
-            root = part;
+            root->setItem(part);
         }
 
         //otherwise pass off to place()
@@ -47,40 +47,42 @@ public:
      * @param a The Node currently being compared to the part
      * @param part The part to be added to the tree
      */
-    void place(BTNode<Type> a, Type part){
+    void place(BTNode<Type>* a, Type part){
         
         //if the part is the same as the part stored in the current node replace it
-        if(part == a.getItem()){
-            a=part;
+        if(part == a->getItem()){
+            a->setItem(part);
         }
 
         //if the part is greater then the part in the current node
-        else if(part>a.getItem()){
+        else if(part>a->getItem()){
             //if the right child of the current node is empty add the part as the right child
-            if(a.getRChild()==NULL){
-                BTNode<Type>* newNode = new BTNode;
-                a.setRChild(newNode);
+            if(a->getRChild()==NULL){
+                BTNode<Type>* newNode = new BTNode<Type>;
+                a->setRChild(newNode);
                 newNode->setParent(a);
+                newNode->setItem(part);
                 return;
                 }
             //otherwise run the method again using the right child of the current node
             else{
-                place(a.getRChild(), part);
+                place(a->getRChild(), part);
             }
         }
         
         //if the part is smaller than the part in current node
-        else if(part<a.getItem()){
+        else if(part<a->getItem()){
             //if the left child of the current node is empty add the part as the left child
-            if(a.getLChild()==NULL){
-                BTNode<Type>* newNode = new BTNode;
-                a.setLChild(newNode);
+            if(a->getLChild()==NULL){
+                BTNode<Type>* newNode = new BTNode<Type>;
+                a->setLChild(newNode);
                 newNode->setParent(a);
+                newNode->setItem(part);
                 return;
             }
             //otherwise run the method again using the left child of the current node
             else{
-                place(a.getLChild(), part);
+                place(a->getLChild(), part);
             }
         }
     };
@@ -98,7 +100,7 @@ public:
      * @param a
      * @param part
      */
-    void deleteNode(BTnode* a, MechPart part){
+    void deleteNode(BTNode<Type>* a, Type part){
         /*Cases:
             - Node matches, no left or right
                 + delete node
@@ -119,11 +121,13 @@ public:
 
     }
 
-    int calculateParts(){};
+    int calculateParts(){
+        return 0;
+    };
 
-    int calculateInventory(){};
+    int calculateInventory(){return 0;};
 
-    int calculateLessThan(int less){};
+    int calculateLessThan(int less){return 0;};
 
 private:
 

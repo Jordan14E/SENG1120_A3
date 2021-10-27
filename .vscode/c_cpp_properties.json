@@ -12,8 +12,8 @@
             ],
             "compilerPath": "C:/cygwin64/bin/g++.exe",
             "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x64"
+            "cppStandard": "c++98",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
